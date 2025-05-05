@@ -13,7 +13,7 @@ namespace BookStore.Models
         [StringLength(50)]
         public string CategoryName { get; set; }
 
-        [StringLength(200)]
+        [StringLength(10000)]
         public string Description { get; set; }
 
         public DateTime CreatedDate { get; set; }
