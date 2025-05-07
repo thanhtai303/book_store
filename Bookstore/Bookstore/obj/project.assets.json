@@ -4241,24 +4241,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\zinzi\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\acer\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\.Net\\Bookstore\\Bookstore\\Bookstore.csproj",
+      "projectUniqueName": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\Bookstore.csproj",
       "projectName": "Bookstore",
-      "projectPath": "E:\\.Net\\Bookstore\\Bookstore\\Bookstore.csproj",
-      "packagesPath": "C:\\Users\\zinzi\\.nuget\\packages\\",
-      "outputPath": "E:\\.Net\\Bookstore\\Bookstore\\obj\\",
+      "projectPath": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\Bookstore.csproj",
+      "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
+      "outputPath": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\zinzi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4283,8 +4278,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.200"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -4324,7 +4318,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

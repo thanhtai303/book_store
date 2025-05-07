@@ -6,6 +6,14 @@ using System.Threading.Tasks;
 
 namespace BookStore.Controllers
 {
+    public class AdminViewController : Controller
+    {
+        public IActionResult Dashboard()
+        {
+            return View();
+        }
+    }
+
     [Route("api/[controller]")]
     [ApiController]
     public class AdminController : ControllerBase
