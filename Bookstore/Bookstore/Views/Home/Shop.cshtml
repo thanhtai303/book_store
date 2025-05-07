@@ -1,0 +1,221 @@
+﻿@model List<BookStore.Models.Book>
+
+@{
+	ViewData["Title"] = "Shop";
+	var categories = ViewData["Categories"] as IEnumerable<dynamic>;
+	var currentCategoryId = ViewData["CategoryId"] as int?;
+	var currentMinPrice = (decimal)(ViewData["MinPrice"] ?? throw new InvalidOperationException());
+	var currentMaxPrice = (decimal)(ViewData["MaxPrice"] ?? throw new InvalidOperationException());
+	var priceRangeMin = (decimal)(ViewData["PriceRangeMin"] ?? throw new InvalidOperationException());
+	var priceRangeMax = (decimal)(ViewData["PriceRangeMax"] ?? throw new InvalidOperationException());
+}
+
+<section class="breadcrumb-section">
+	<h2 class="sr-only">Site Breadcrumb</h2>
+	<div class="container">
+		<div class="breadcrumb-contents">
+			<nav aria-label="breadcrumb">
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item"><a asp-action="Index" asp-controller="Home">Home</a></li>
+					<li class="breadcrumb-item active">Shop</li>
+				</ol>
+			</nav>
+		</div>
+	</div>
+</section>
+<main class="inner-page-sec-padding-bottom">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-9 order-lg-2">
+				<div id="book-list-container">
+					@await Html.PartialAsync("_BookList", Model)
+				</div>
+			</div>
+			<div class="col-lg-3 mt--40 mt-lg--0">
+				<div class="inner-page-sidebar">
+					<!-- Categories -->
+					<div class="single-block">
+						<h3 class="sidebar-title">Categories</h3>
+						<ul class="sidebar-menu--shop">
+							<li class="@(currentCategoryId == null ? "active" : "")">
+								<a href="javascript:void(0)" data-category-id="" class="category-filter">
+									All Categories
+								</a>
+							</li>
+							@if (categories != null)
+							{
+								foreach (var category in categories)
+								{
+									<li class="@(currentCategoryId == category.CategoryId ? "active" : "")">
+										<a href="javascript:void(0)" data-category-id="@category.CategoryId"
+										   class="category-filter">
+											@category.CategoryName (@category.BookCount)
+										</a>
+									</li>
+								}
+							}
+						</ul>
+					</div>
+					<!-- Price Filter -->
+					<div class="single-block">
+						<label name="amount" class="sidebar-title">Filter By Price</label>
+						<div class="range-slider pt--30">
+							<div class="sb-range-slider"></div>
+							<div class="slider-price">
+								<p>
+									<input type="text" id="amount" name="amount" readonly>
+									<input type="hidden" id="minPrice" value="@currentMinPrice">
+									<input type="hidden" id="maxPrice" value="@currentMaxPrice">
+								</p>
+							</div>
+							<button type="button" id="price-filter-btn" class="btn btn-sm btn-outlined mt-3">Filter
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</main>
+
+@section Scripts {
+	<script>
+		$(document).ready(function () {
+			// Current filter state
+			const currentFilters = {
+				categoryId: '@currentCategoryId',
+				minPrice: '@currentMinPrice',
+				maxPrice: '@currentMaxPrice',
+				sortOrder: '',
+				pageNumber: 1,
+				pageSize: 9
+			};
+
+			// Initialize price range slider
+			let minPrice = @priceRangeMin;
+			let maxPrice = @priceRangeMax;
+			let currentMin = @currentMinPrice;
+			let currentMax = @currentMaxPrice;
+
+			// Load books with AJAX
+			function loadBooks() {
+				$.ajax({
+					url: '/Home/GetBooks',
+					type: 'GET',
+					data: currentFilters,
+					beforeSend: function () {
+						$('#book-list-container').addClass('loading');
+					},
+					success: function (data) {
+						$('#book-list-container').html(data);
+
+						// Re-initialize view mode switcher after content load
+						$('.product-view-mode a').on('click', function (e) {
+							e.preventDefault();
+							let shopProductWrap = $('.shop-product-wrap');
+							let viewMode = $(this).data('target');
+
+							$('.product-view-mode a').removeClass('active');
+							$(this).addClass('active');
+
+							shopProductWrap.removeClass('grid list grid-four').addClass(viewMode);
+						});
+
+						// Re-bind pagination events
+						$('.pagination-btns a').on('click', function (e) {
+							e.preventDefault();
+							currentFilters.pageNumber = $(this).data('page');
+							loadBooks();
+						});
+
+						// Re-bind sorting and page size events
+						$('#sort-order').on('change', function () {
+							currentFilters.sortOrder = $(this).val();
+							currentFilters.pageNumber = 1; // Reset to first page on sort change
+							loadBooks();
+						});
+
+						$('#page-size').on('change', function () {
+							currentFilters.pageSize = $(this).val();
+							currentFilters.pageNumber = 1; // Reset to first page on page size change
+							loadBooks();
+						});
+					},
+					error: function () {
+						$('#book-list-container').html('<div class="alert alert-danger">Error loading books. Please try again.</div>');
+					},
+					complete: function () {
+						$('#book-list-container').removeClass('loading');
+					}
+				});
+			}
+
+			// Category filter click event
+			$('.category-filter').on('click', function (e) {
+				e.preventDefault();
+				let categoryId = $(this).data('category-id');
+
+				// Update active class
+				$('.category-filter').parent().removeClass('active');
+				$(this).parent().addClass('active');
+
+				// Update current filters
+				currentFilters.categoryId = categoryId;
+				currentFilters.pageNumber = 1; // Reset to first page on category change
+
+				// Reload books
+				loadBooks();
+			});
+
+			// Price filter button click event
+			$('#price-filter-btn').on('click', function () {
+				currentFilters.minPrice = $('#minPrice').val();
+				currentFilters.maxPrice = $('#maxPrice').val();
+				currentFilters.pageNumber = 1; // Reset to first page on price filter change
+
+				// Reload books
+				loadBooks();
+			});
+
+			// Initial binding of sort and page size events
+			$(document).on('change', '#sort-order', function () {
+				currentFilters.sortOrder = $(this).val();
+				currentFilters.pageNumber = 1;
+				loadBooks();
+			});
+
+			$(document).on('change', '#page-size', function () {
+				currentFilters.pageSize = $(this).val();
+				currentFilters.pageNumber = 1;
+				loadBooks();
+			});
+
+			// Initial binding of pagination events
+			$(document).on('click', '.pagination-btns a', function (e) {
+				e.preventDefault();
+				currentFilters.pageNumber = $(this).data('page');
+				loadBooks();
+			});
+		});
+	</script>
+
+	<style>
+		#book-list-container.loading {
+			position: relative;
+			min-height: 300px;
+		}
+
+		#book-list-container.loading:after {
+			content: 'Loading...';
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			background: rgba(255, 255, 255, 0.8);
+			padding: 20px;
+			border-radius: 5px;
+			font-weight: bold;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+	</style>
+}

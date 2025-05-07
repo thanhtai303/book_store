@@ -1,49 +1,322 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Bookstore</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/Bookstore.styles.css" asp-append-version="true" />
-</head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Bookstore</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
+<html lang="zxx">
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - Bookstore - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>BookHub - @ViewData["Title"]</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="screen" href="~/css/plugins.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="~/css/main.css" />
+	<link rel="shortcut icon" type="image/x-icon" href="~/assets/image/favicon.ico">
+</head>
+
+<body>
+	<div class="site-wrapper" id="top">
+		<div class="site-header d-none d-lg-block">
+			<div class="header-middle pt--10 pb--10">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg-3 ">
+							<a class="site-brand" asp-controller="Home" asp-action="Index">
+								<img src="~/assets/image/book-hub (1).svg" alt="">
+							</a>
+						</div>
+						<div class="col-lg-3">
+						</div>
+						<div class="col-lg-6">
+							<div class="main-navigation flex-lg-right">
+								<ul class="main-menu menu-right ">
+									<li class="menu-item">
+										<a asp-controller="Home" asp-action="Index">Home</a>
+									</li>
+									<li class="menu-item">
+										<a asp-controller="Home" asp-action="Shop">shop</a>
+									</li>
+									<li class="menu-item">
+										<a asp-action="Contact" asp-controller="Home">Contact</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header-bottom pb--10">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg-3">
+							@await Component.InvokeAsync("NavCategory")
+						</div>
+						<div class="col-lg-5">
+							<div class="header-search-block">
+								<input type="text" placeholder="Search entire store here">
+								<button>Search</button>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="main-navigation flex-lg-right">
+								<div class="cart-widget">
+									<div class="login-block">
+										<a asp-action="LoginRegister" asp-controller="Home" class="font-weight-bold">Login</a> <br>
+										<span>or</span><a asp-action="LoginRegister" asp-controller="Home">Register</a>
+									</div>
+									<div class="cart-block">
+										<div class="cart-total">
+											<span class="text-number">
+												1
+											</span>
+											<span class="text-item">
+												Shopping Cart
+											</span>
+											<span class="price">
+												£0.00
+												<i class="fas fa-chevron-down"></i>
+											</span>
+										</div>
+										<div class="cart-dropdown-block">
+											<div class=" single-cart-block ">
+												<div class="cart-product">
+													<a asp-action="ProductDetails" asp-controller="Home" class="image">
+														<img src="~/assets/image/products/cart-product-1.jpg" alt="">
+													</a>
+													<div class="content">
+														<h3 class="title">
+															<a asp-action="ProductDetails" asp-controller="Home">
+																Kodak PIXPRO
+																Astro Zoom AZ421 16 MP
+															</a>
+														</h3>
+														<p class="price"><span class="qty">1 ×</span> £87.34</p>
+														<button class="cross-btn"><i class="fas fa-times"></i></button>
+													</div>
+												</div>
+											</div>
+											<div class=" single-cart-block ">
+												<div class="btn-block">
+													<a asp-action="Cart" asp-controller="Home" class="btn">
+														View Cart <i class="fas fa-chevron-right"></i>
+													</a>
+													<a asp-controller="Home" asp-action="Checkout" class="btn btn--primary">
+														Check Out <i class="fas fa-chevron-right"></i>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="site-mobile-menu">
+			<header class="mobile-header d-block d-lg-none pt--10 pb-md--10">
+				<div class="container">
+					<div class="row align-items-sm-end align-items-center">
+						<div class="col-md-4 col-7">
+							<a asp-controller="Home" asp-action="Index" class="site-brand">
+								<img src="~/assets/image/book-hub (1).svg" alt="">
+							</a>
+						</div>
+						<div class="col-md-5 order-3 order-md-2">
+							@await Component.InvokeAsync("NavCategory")
+						</div>
+						<div class="col-md-3 col-5  order-md-3 text-right">
+							<div class="mobile-header-btns header-top-widget">
+								<ul class="header-links">
+									<li class="sin-link">
+										<a asp-action="Cart" asp-controller="Home" class="cart-link link-icon"><i class="ion-bag"></i></a>
+									</li>
+									<li class="sin-link">
+										<a href="javascript:" class="link-icon hamburgur-icon off-canvas-btn">
+											<i class="ion-navicon"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<aside class="off-canvas-wrapper">
+				<div class="btn-close-off-canvas">
+					<i class="ion-android-close"></i>
+				</div>
+				<div class="off-canvas-inner">
+					<div class="search-box offcanvas">
+						<form>
+							<input type="text" placeholder="Search Here">
+							<button class="search-btn"><i class="ion-ios-search-strong"></i></button>
+						</form>
+					</div>
+					<!-- search box end -->
+					<!-- mobile menu start -->
+					<div class="mobile-navigation">
+						<!-- mobile menu navigation start -->
+						<nav class="off-canvas-nav">
+							<ul class="mobile-menu main-mobile-menu">
+								<li>
+									<a asp-controller="Home" asp-action="Index">Home</a>
+								</li>
+								<li>
+									<a asp-action="Shop" asp-controller="Home">Shop</a>
+								</li>
+								<li><a asp-action="Contact" asp-controller="Home">Contact</a></li>
+							</ul>
+						</nav>
+						<!-- mobile menu navigation end -->
+					</div>
+					<!-- mobile menu end -->
+					<nav class="off-canvas-nav">
+						<ul class="mobile-menu menu-block-2">
+							<li class="menu-item-has-children">
+								<a href="#">Currency - USD $ <i class="fas fa-angle-down"></i></a>
+								<ul class="sub-menu">
+									<li> <a asp-action="Cart" asp-controller="Home">USD $</a></li>
+									<li> <a asp-controller="Home" asp-action="Checkout">EUR €</a></li>
+								</ul>
+							</li>
+							<li class="menu-item-has-children">
+								<a href="#">Lang - Eng<i class="fas fa-angle-down"></i></a>
+								<ul class="sub-menu">
+									<li>Eng</li>
+									<li>Ban</li>
+								</ul>
+							</li>
+							<li class="menu-item-has-children">
+								<a href="#">My Account <i class="fas fa-angle-down"></i></a>
+								<ul class="sub-menu">
+									<li><a href="#">My Account</a></li>
+									<li><a href="#">Order History</a></li>
+									<li><a href="#">Transactions</a></li>
+									<li><a href="#">Downloads</a></li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+					<div class="off-canvas-bottom">
+						<div class="contact-list mb--10">
+							<a href="#" class="sin-contact"><i class="fas fa-mobile-alt"></i>(12345) 78790220</a>
+							<a href="#" class="sin-contact"><i class="fas fa-envelope"></i>examle@handart.com</a>
+						</div>
+						<div class="off-canvas-social">
+							<a href="#" class="single-icon"><i class="fab fa-facebook-f"></i></a>
+							<a href="#" class="single-icon"><i class="fab fa-twitter"></i></a>
+							<a href="#" class="single-icon"><i class="fas fa-rss"></i></a>
+							<a href="#" class="single-icon"><i class="fab fa-youtube"></i></a>
+							<a href="#" class="single-icon"><i class="fab fa-google-plus-g"></i></a>
+							<a href="#" class="single-icon"><i class="fab fa-instagram"></i></a>
+						</div>
+					</div>
+				</div>
+			</aside>
+			<!--Off Canvas Navigation End-->
+		</div>
+		<div class="sticky-init fixed-header common-sticky">
+			<div class="container d-none d-lg-block">
+				<div class="row align-items-center">
+					<div class="col-lg-4">
+						<a asp-controller="Home" asp-action="Index" class="site-brand">
+							<img src="~/assets/image/book-hub (1).svg" alt="">
+						</a>
+					</div>
+					<div class="col-lg-8">
+						<div class="main-navigation flex-lg-right">
+							<ul class="main-menu menu-right ">
+								<li class="menu-item">
+									<a href="javascript:void(0)">Home</a>
+								</li>
+								<!-- Shop -->
+								<li class="menu-item">
+									<a href="javascript:void(0)">shop</a>
+								</li>
+								<li class="menu-item">
+									<a asp-action="Contact" asp-controller="Home">Contact</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		@RenderBody()
+		<!--=================================
+		Footer
+		===================================== -->
+	</div>
+	<!--=================================
+	Footer Area
+	===================================== -->
+	<footer class="site-footer">
+		<div class="container">
+			<div class="row justify-content-between  section-padding">
+				<div class=" col-xl-3 col-lg-4 col-sm-6">
+					<div class="single-footer pb--40">
+						<div class="brand-footer footer-title">
+							<img src="~/assets/image/book-hub (1).svg" alt="">
+						</div>
+						<div class="footer-contact">
+							<p>
+								<span class="label">Address:</span><span class="text">
+									Example Street 98, HH2 BacHa, New
+									York,
+									USA
+								</span>
+							</p>
+							<p><span class="label">Phone:</span><span class="text">+18088 234 5678</span></p>
+							<p><span class="label">Email:</span><span class="text">suport@hastech.com</span></p>
+						</div>
+					</div>
+				</div>
+				<div class=" col-xl-3 col-lg-2 col-sm-6">
+					<div class="single-footer pb--40">
+						<div class="footer-title">
+							<h3>Information</h3>
+						</div>
+						<ul class="footer-list normal-list">
+							<li><a href="#">Shop</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class=" col-xl-3 col-lg-2 col-sm-6">
+					<div class="single-footer pb--40">
+						<div class="footer-title">
+							<h3>Extras</h3>
+						</div>
+						<ul class="footer-list normal-list">
+							<li><a href="#">Contact Us</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class=" col-xl-3 col-lg-4 col-sm-6">
+					<div class="footer-title">
+						<h3>Newsletter Subscribe</h3>
+					</div>
+					<div class="newsletter-form mb--30">
+						<form action="https://htmldemo.net/pustok/pustok/php/mail.php">
+							<input type="email" class="form-control" placeholder="Enter Your Email Address Here...">
+							<button class="btn btn--primary w-100">Subscribe</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="container">
+				<p class="copyright-text">
+					Copyright &#169; 2025 <a href="#" class="author">BookHub</a>. All Right Reserved.
+					<br>
+				</p>
+			</div>
+		</div>
+	</footer>
+	<!-- Use Minified Plugins Version For Fast Page Load -->
+	<script src="~/js/plugins.js"></script>
+	<script src="~/js/ajax-mail.js"></script>
+	<script src="~/js/custom.js"></script>
+	@await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

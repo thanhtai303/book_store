@@ -1,0 +1,24 @@
+﻿@model System.Collections.Generic.List<BookStore.Models.Category>
+
+<nav class="category-nav   ">
+	<div>
+		<a href="javascript:void(0)" class="category-trigger">
+			<i class="fa fa-bars"></i>Browse
+			categories
+		</a>
+		<ul class="category-menu">
+			@foreach(var category in Model) {
+				<li class="cat-item">
+					<a href="#">@category.CategoryName</a>
+					@* <ul class="sub-menu"> *@
+					@* 	<li><a href="#">Bags & Cases</a></li> *@
+					@* 	<li><a href="#">Binoculars & Scopes</a></li> *@
+					@* 	<li><a href="#">Digital Cameras</a></li> *@
+					@* 	<li><a href="#">Film Photography</a></li> *@
+					@* 	<li><a href="#">Lighting & Studio</a></li> *@
+					@* </ul> *@
+				</li>
+			}
+		</ul>
+	</div>
+</nav>
