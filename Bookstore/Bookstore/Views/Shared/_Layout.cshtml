@@ -19,7 +19,7 @@
 				<div class="container">
 					<div class="row align-items-center">
 						<div class="col-lg-3 ">
-							<a class="site-brand" href="/Home/Index">
+							<a class="site-brand" asp-controller="Home" asp-action="Index">
 								<img src="~/assets/image/book-hub (1).svg" alt="">
 							</a>
 						</div>
@@ -29,13 +29,13 @@
 							<div class="main-navigation flex-lg-right">
 								<ul class="main-menu menu-right ">
 									<li class="menu-item">
-										<a href="/Home/Index">Home</a>
+										<a asp-controller="Home" asp-action="Index">Home</a>
 									</li>
 									<li class="menu-item">
-										<a href="/Home/Shop">shop</a>
+										<a asp-controller="Home" asp-action="Shop">shop</a>
 									</li>
 									<li class="menu-item">
-										<a href="/Home/Contact">Contact</a>
+										<a asp-action="Contact" asp-controller="Home">Contact</a>
 									</li>
 								</ul>
 							</div>
@@ -47,126 +47,7 @@
 				<div class="container">
 					<div class="row align-items-center">
 						<div class="col-lg-3">
-							<nav class="category-nav   ">
-								<div>
-									<a href="javascript:void(0)" class="category-trigger">
-										<i class="fa fa-bars"></i>Browse
-										categories
-									</a>
-									<ul class="category-menu">
-										<li class="cat-item has-children">
-											<a href="#">Arts & Photography</a>
-											<ul class="sub-menu">
-												<li><a href="#">Bags & Cases</a></li>
-												<li><a href="#">Binoculars & Scopes</a></li>
-												<li><a href="#">Digital Cameras</a></li>
-												<li><a href="#">Film Photography</a></li>
-												<li><a href="#">Lighting & Studio</a></li>
-											</ul>
-										</li>
-										<li class="cat-item has-children mega-menu">
-											<a href="#">Biographies</a>
-											<ul class="sub-menu">
-												<li class="single-block">
-													<h3 class="title">WHEEL SIMULATORS</h3>
-													<ul>
-														<li><a href="#">Bags & Cases</a></li>
-														<li><a href="#">Binoculars & Scopes</a></li>
-														<li><a href="#">Digital Cameras</a></li>
-														<li><a href="#">Film Photography</a></li>
-														<li><a href="#">Lighting & Studio</a></li>
-													</ul>
-												</li>
-												<li class="single-block">
-													<h3 class="title">WHEEL SIMULATORS</h3>
-													<ul>
-														<li><a href="#">Bags & Cases</a></li>
-														<li><a href="#">Binoculars & Scopes</a></li>
-														<li><a href="#">Digital Cameras</a></li>
-														<li><a href="#">Film Photography</a></li>
-														<li><a href="#">Lighting & Studio</a></li>
-													</ul>
-												</li>
-												<li class="single-block">
-													<h3 class="title">WHEEL SIMULATORS</h3>
-													<ul>
-														<li><a href="#">Bags & Cases</a></li>
-														<li><a href="#">Binoculars & Scopes</a></li>
-														<li><a href="#">Digital Cameras</a></li>
-														<li><a href="#">Film Photography</a></li>
-														<li><a href="#">Lighting & Studio</a></li>
-													</ul>
-												</li>
-												<li class="single-block">
-													<h3 class="title">WHEEL SIMULATORS</h3>
-													<ul>
-														<li><a href="#">Bags & Cases</a></li>
-														<li><a href="#">Binoculars & Scopes</a></li>
-														<li><a href="#">Digital Cameras</a></li>
-														<li><a href="#">Film Photography</a></li>
-														<li><a href="#">Lighting & Studio</a></li>
-													</ul>
-												</li>
-											</ul>
-										</li>
-										<li class="cat-item has-children">
-											<a href="#">Business & Money</a>
-											<ul class="sub-menu">
-												<li><a href="#">Brake Tools</a></li>
-												<li><a href="#">Driveshafts</a></li>
-												<li><a href="#">Emergency Brake</a></li>
-												<li><a href="#">Spools</a></li>
-											</ul>
-										</li>
-										<li class="cat-item has-children">
-											<a href="#">Calendars</a>
-											<ul class="sub-menu">
-												<li><a href="#">Brake Tools</a></li>
-												<li><a href="#">Driveshafts</a></li>
-												<li><a href="#">Emergency Brake</a></li>
-												<li><a href="#">Spools</a></li>
-											</ul>
-										</li>
-										<li class="cat-item has-children">
-											<a href="#">Children's Books</a>
-											<ul class="sub-menu">
-												<li><a href="#">Brake Tools</a></li>
-												<li><a href="#">Driveshafts</a></li>
-												<li><a href="#">Emergency Brake</a></li>
-												<li><a href="#">Spools</a></li>
-											</ul>
-										</li>
-										<li class="cat-item has-children">
-											<a href="#">Comics</a>
-											<ul class="sub-menu">
-												<li><a href="#">Brake Tools</a></li>
-												<li><a href="#">Driveshafts</a></li>
-												<li><a href="#">Emergency Brake</a></li>
-												<li><a href="#">Spools</a></li>
-											</ul>
-										</li>
-										<li class="cat-item"><a href="#">Perfomance Filters</a></li>
-										<li class="cat-item has-children">
-											<a href="#">Cookbooks</a>
-											<ul class="sub-menu">
-												<li><a href="#">Brake Tools</a></li>
-												<li><a href="#">Driveshafts</a></li>
-												<li><a href="#">Emergency Brake</a></li>
-												<li><a href="#">Spools</a></li>
-											</ul>
-										</li>
-										<li class="cat-item "><a href="#">Accessories</a></li>
-										<li class="cat-item "><a href="#">Education</a></li>
-										<li class="cat-item hidden-menu-item"><a href="#">Indoor Living</a></li>
-										<li class="cat-item">
-											<a href="#" class="js-expand-hidden-menu">
-												More
-												Categories
-											</a>
-										</li>
-									</ul>
-								</div>
-							</nav>
+							@await Component.InvokeAsync("NavCategory")
 						</div>
 						<div class="col-lg-5">
 							<div class="header-search-block">
@@ -178,8 +59,8 @@
 							<div class="main-navigation flex-lg-right">
 								<div class="cart-widget">
 									<div class="login-block">
-										<a href="/Home/LoginRegister" class="font-weight-bold">Login</a> <br>
-										<span>or</span><a href="/Home/LoginRegister">Register</a>
+										<a asp-action="LoginRegister" asp-controller="Home" class="font-weight-bold">Login</a> <br>
+										<span>or</span><a asp-action="LoginRegister" asp-controller="Home">Register</a>
 									</div>
 									<div class="cart-block">
 										<div class="cart-total">
@@ -197,12 +78,12 @@
 										<div class="cart-dropdown-block">
 											<div class=" single-cart-block ">
 												<div class="cart-product">
-													<a href="/Home/ProductDetails" class="image">
+													<a asp-action="ProductDetails" asp-controller="Home" class="image">
 														<img src="~/assets/image/products/cart-product-1.jpg" alt="">
 													</a>
 													<div class="content">
 														<h3 class="title">
-															<a href="/Home/ProductDetails">
+															<a asp-action="ProductDetails" asp-controller="Home">
 																Kodak PIXPRO
 																Astro Zoom AZ421 16 MP
 															</a>
@@ -214,10 +95,10 @@
 											</div>
 											<div class=" single-cart-block ">
 												<div class="btn-block">
-													<a href="/Home/Cart" class="btn">
+													<a asp-action="Cart" asp-controller="Home" class="btn">
 														View Cart <i class="fas fa-chevron-right"></i>
 													</a>
-													<a href="/Home/Checkout" class="btn btn--primary">
+													<a asp-controller="Home" asp-action="Checkout" class="btn btn--primary">
 														Check Out <i class="fas fa-chevron-right"></i>
 													</a>
 												</div>
@@ -236,137 +117,18 @@
 				<div class="container">
 					<div class="row align-items-sm-end align-items-center">
 						<div class="col-md-4 col-7">
-							<a href="/Home/Index" class="site-brand">
+							<a asp-controller="Home" asp-action="Index" class="site-brand">
 								<img src="~/assets/image/book-hub (1).svg" alt="">
 							</a>
 						</div>
 						<div class="col-md-5 order-3 order-md-2">
-							<nav class="category-nav   ">
-								<div>
-									<a href="javascript:void(0)" class="category-trigger">
-										<i class="fa fa-bars"></i>Browse
-										categories
-									</a>
-									<ul class="category-menu">
-										<li class="cat-item has-children">
-											<a href="#">Arts & Photography</a>
-											<ul class="sub-menu">
-												<li><a href="#">Bags & Cases</a></li>
-												<li><a href="#">Binoculars & Scopes</a></li>
-												<li><a href="#">Digital Cameras</a></li>
-												<li><a href="#">Film Photography</a></li>
-												<li><a href="#">Lighting & Studio</a></li>
-											</ul>
-										</li>
-										<li class="cat-item has-children mega-menu">
-											<a href="#">Biographies</a>
-											<ul class="sub-menu">
-												<li class="single-block">
-													<h3 class="title">WHEEL SIMULATORS</h3>
-													<ul>
-														<li><a href="#">Bags & Cases</a></li>
-														<li><a href="#">Binoculars & Scopes</a></li>
-														<li><a href="#">Digital Cameras</a></li>
-														<li><a href="#">Film Photography</a></li>
-														<li><a href="#">Lighting & Studio</a></li>
-													</ul>
-												</li>
-												<li class="single-block">
-													<h3 class="title">WHEEL SIMULATORS</h3>
-													<ul>
-														<li><a href="#">Bags & Cases</a></li>
-														<li><a href="#">Binoculars & Scopes</a></li>
-														<li><a href="#">Digital Cameras</a></li>
-														<li><a href="#">Film Photography</a></li>
-														<li><a href="#">Lighting & Studio</a></li>
-													</ul>
-												</li>
-												<li class="single-block">
-													<h3 class="title">WHEEL SIMULATORS</h3>
-													<ul>
-														<li><a href="#">Bags & Cases</a></li>
-														<li><a href="#">Binoculars & Scopes</a></li>
-														<li><a href="#">Digital Cameras</a></li>
-														<li><a href="#">Film Photography</a></li>
-														<li><a href="#">Lighting & Studio</a></li>
-													</ul>
-												</li>
-												<li class="single-block">
-													<h3 class="title">WHEEL SIMULATORS</h3>
-													<ul>
-														<li><a href="#">Bags & Cases</a></li>
-														<li><a href="#">Binoculars & Scopes</a></li>
-														<li><a href="#">Digital Cameras</a></li>
-														<li><a href="#">Film Photography</a></li>
-														<li><a href="#">Lighting & Studio</a></li>
-													</ul>
-												</li>
-											</ul>
-										</li>
-										<li class="cat-item has-children">
-											<a href="#">Business & Money</a>
-											<ul class="sub-menu">
-												<li><a href="#">Brake Tools</a></li>
-												<li><a href="#">Driveshafts</a></li>
-												<li><a href="#">Emergency Brake</a></li>
-												<li><a href="#">Spools</a></li>
-											</ul>
-										</li>
-										<li class="cat-item has-children">
-											<a href="#">Calendars</a>
-											<ul class="sub-menu">
-												<li><a href="#">Brake Tools</a></li>
-												<li><a href="#">Driveshafts</a></li>
-												<li><a href="#">Emergency Brake</a></li>
-												<li><a href="#">Spools</a></li>
-											</ul>
-										</li>
-										<li class="cat-item has-children">
-											<a href="#">Children's Books</a>
-											<ul class="sub-menu">
-												<li><a href="#">Brake Tools</a></li>
-												<li><a href="#">Driveshafts</a></li>
-												<li><a href="#">Emergency Brake</a></li>
-												<li><a href="#">Spools</a></li>
-											</ul>
-										</li>
-										<li class="cat-item has-children">
-											<a href="#">Comics</a>
-											<ul class="sub-menu">
-												<li><a href="#">Brake Tools</a></li>
-												<li><a href="#">Driveshafts</a></li>
-												<li><a href="#">Emergency Brake</a></li>
-												<li><a href="#">Spools</a></li>
-											</ul>
-										</li>
-										<li class="cat-item"><a href="#">Perfomance Filters</a></li>
-										<li class="cat-item has-children">
-											<a href="#">Cookbooks</a>
-											<ul class="sub-menu">
-												<li><a href="#">Brake Tools</a></li>
-												<li><a href="#">Driveshafts</a></li>
-												<li><a href="#">Emergency Brake</a></li>
-												<li><a href="#">Spools</a></li>
-											</ul>
-										</li>
-										<li class="cat-item "><a href="#">Accessories</a></li>
-										<li class="cat-item "><a href="#">Education</a></li>
-										<li class="cat-item hidden-menu-item"><a href="#">Indoor Living</a></li>
-										<li class="cat-item">
-											<a href="#" class="js-expand-hidden-menu">
-												More
-												Categories
-											</a>
-										</li>
-									</ul>
-								</div>
-							</nav>
+							@await Component.InvokeAsync("NavCategory")
 						</div>
 						<div class="col-md-3 col-5  order-md-3 text-right">
 							<div class="mobile-header-btns header-top-widget">
 								<ul class="header-links">
 									<li class="sin-link">
-										<a href="/Home/Cart" class="cart-link link-icon"><i class="ion-bag"></i></a>
+										<a asp-action="Cart" asp-controller="Home" class="cart-link link-icon"><i class="ion-bag"></i></a>
 									</li>
 									<li class="sin-link">
 										<a href="javascript:" class="link-icon hamburgur-icon off-canvas-btn">
@@ -397,12 +159,12 @@
 						<nav class="off-canvas-nav">
 							<ul class="mobile-menu main-mobile-menu">
 								<li>
-									<a href="/Home/Index">Home</a>
+									<a asp-controller="Home" asp-action="Index">Home</a>
 								</li>
 								<li>
-									<a asp-action="Index" asp-controller="Book">Shop</a>
+									<a asp-action="Shop" asp-controller="Home">Shop</a>
 								</li>
-								<li><a href="/Home/Contact">Contact</a></li>
+								<li><a asp-action="Contact" asp-controller="Home">Contact</a></li>
 							</ul>
 						</nav>
 						<!-- mobile menu navigation end -->
@@ -413,8 +175,8 @@
 							<li class="menu-item-has-children">
 								<a href="#">Currency - USD $ <i class="fas fa-angle-down"></i></a>
 								<ul class="sub-menu">
-									<li> <a href="/Home/Cart">USD $</a></li>
-									<li> <a href="/Home/Checkout">EUR €</a></li>
+									<li> <a asp-action="Cart" asp-controller="Home">USD $</a></li>
+									<li> <a asp-controller="Home" asp-action="Checkout">EUR €</a></li>
 								</ul>
 							</li>
 							<li class="menu-item-has-children">
@@ -457,7 +219,7 @@
 			<div class="container d-none d-lg-block">
 				<div class="row align-items-center">
 					<div class="col-lg-4">
-						<a href="/Home/Index" class="site-brand">
+						<a asp-controller="Home" asp-action="Index" class="site-brand">
 							<img src="~/assets/image/book-hub (1).svg" alt="">
 						</a>
 					</div>
@@ -472,7 +234,7 @@
 									<a href="javascript:void(0)">shop</a>
 								</li>
 								<li class="menu-item">
-									<a href="/Home/Contact">Contact</a>
+									<a asp-action="Contact" asp-controller="Home">Contact</a>
 								</li>
 							</ul>
 						</div>
@@ -480,7 +242,7 @@
 				</div>
 			</div>
 		</div>
-		@RenderBody();
+		@RenderBody()
 		<!--=================================
 		Footer
 		===================================== -->
