@@ -38,7 +38,6 @@ namespace BookStore.Models
         // Navigation property for Category
         [ForeignKey("CategoryId")]
         public virtual Category Category { get; set; }
-
         public virtual ICollection<Cart> Carts { get; set; }
         public virtual ICollection<OrderDetail> OrderDetails { get; set; }
     }
