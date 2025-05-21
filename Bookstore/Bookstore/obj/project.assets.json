@@ -4247,11 +4247,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\.Net\\Bookstore\\Bookstore\\Bookstore.csproj",
+      "projectUniqueName": "E:\\.Net\\book_store\\Bookstore\\Bookstore\\Bookstore.csproj",
       "projectName": "Bookstore",
-      "projectPath": "E:\\.Net\\Bookstore\\Bookstore\\Bookstore.csproj",
+      "projectPath": "E:\\.Net\\book_store\\Bookstore\\Bookstore\\Bookstore.csproj",
       "packagesPath": "C:\\Users\\zinzi\\.nuget\\packages\\",
-      "outputPath": "E:\\.Net\\Bookstore\\Bookstore\\obj\\",
+      "outputPath": "E:\\.Net\\book_store\\Bookstore\\Bookstore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

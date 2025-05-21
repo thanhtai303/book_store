@@ -1,15 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using BookStore.Data;
-using BookStore.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
-using System.Linq;
 
 namespace BookStore.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class BookController : ControllerBase
+    public class BookController : Controller
     {
         private readonly ApplicationDbContext _context;
 
@@ -18,39 +14,36 @@ namespace BookStore.Controllers
             _context = context;
         }
 
-        [HttpGet]
-        public async Task<IActionResult> GetBooks()
+        public async Task<IActionResult> Index()
         {
-            var books = await _context.Books.ToListAsync();
-            return Ok(new { success = true, data = books });
+            var books = await _context.Books.Include(b => b.Category).ToListAsync();
+            return View(books);
         }
 
-        [HttpGet("{id}")]
-        public async Task<IActionResult> GetBook(int id)
+        public async Task<IActionResult> Details(int id)
         {
-            var book = await _context.Books.FindAsync(id);
-            if (book == null)
-            {
-                return NotFound(new { success = false, message = "Book not found." });
-            }
-            return Ok(new { success = true, data = book });
+            var book = await _context.Books.Include(b => b.Category).FirstOrDefaultAsync(b => b.BookId == id);
+            if (book == null) return NotFound();
+            return View(book);
         }
 
-        [HttpGet("search")]
-        public async Task<IActionResult> Search([FromQuery] string term)
+        public async Task<IActionResult> Browse(int? categoryId)
         {
-            if (string.IsNullOrEmpty(term))
-            {
-                return Ok(new { success = true, data = new List<object>() });
-            }
+            var books = categoryId.HasValue
+                ? await _context.Books.Where(b => b.CategoryId == categoryId).Include(b => b.Category).ToListAsync()
+                : await _context.Books.Include(b => b.Category).ToListAsync();
+            ViewBag.Categories = await _context.Categories.ToListAsync();
+            return View(books);
+        }
 
+        [HttpPost]
+        public async Task<IActionResult> Search(string searchTerm)
+        {
             var books = await _context.Books
-                .Where(b => b.Title.Contains(term) || b.Author.Contains(term))
-                .Select(b => new { b.BookId, b.Title })
-                .Take(5)
+                .Where(b => b.Title.Contains(searchTerm) || b.Author.Contains(searchTerm))
+                .Include(b => b.Category)
                 .ToListAsync();
-
-            return Ok(new { success = true, data = books });
+            return View("Index", books);
         }
     }
 }

@@ -1,45 +1,21 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Collections.Generic;
-using System;
-
-namespace BookStore.Models
+﻿namespace BookStore.Models
 {
     public class Book
     {
-        [Key]
         public int BookId { get; set; }
-
-        [Required]
-        [StringLength(100)]
         public string Title { get; set; }
-
-        [Required]
-        [StringLength(100)]
         public string Author { get; set; }
-
-        [Required]
-        [StringLength(255)]
-        public string ImgURL { get; set; }
-
-        [Required]
-        [Range(0, 10000)]
-        public decimal Price { get; set; }
-
-        [Required]
-        [Range(0, 1000)]
+        public int YearOfPublication { get; set; }
+        public string LongDescription { get; set; }
+        public int CategoryId { get; set; }
         public int Stock { get; set; }
+        public decimal Price { get; set; }
+        public string ShortDescription { get; set; }
+        public string Publisher { get; set; }
+        public string ImageS { get; set; }
+        public string ImageM { get; set; }
+        public string ImageL { get; set; }
 
-        public DateTime CreatedDate { get; set; }
-
-        // Foreign key for Category
-        public int? CategoryId { get; set; }
-
-        // Navigation property for Category
-        [ForeignKey("CategoryId")]
-        public virtual Category Category { get; set; }
-
-        public virtual ICollection<Cart> Carts { get; set; }
-        public virtual ICollection<OrderDetail> OrderDetails { get; set; }
+        public Category Category { get; set; }
     }
 }
