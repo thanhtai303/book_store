@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using BookStore.Data;
 using BookStore.Models;
 using Microsoft.EntityFrameworkCore;
@@ -6,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace BookStore.Controllers
 {
+<<<<<<< Updated upstream
     public class AdminViewController : Controller
     {
         public IActionResult Dashboard()
@@ -17,126 +20,89 @@ namespace BookStore.Controllers
     [Route("api/[controller]")]
     [ApiController]
     public class AdminController : ControllerBase
+=======
+    [Authorize(Roles = "Admin")]
+    public class AdminController : Controller
+>>>>>>> Stashed changes
     {
         private readonly ApplicationDbContext _context;
+        private readonly UserManager<ApplicationUser> _userManager;
 
-        public AdminController(ApplicationDbContext context)
+        public AdminController(ApplicationDbContext context, UserManager<ApplicationUser> userManager)
         {
             _context = context;
+            _userManager = userManager;
         }
 
-        [HttpGet("books")]
-        public async Task<IActionResult> GetBooks()
+        public IActionResult Dashboard()
         {
-            try
-            {
-                var userId = int.Parse(HttpContext.Session.GetString("UserId"));
-                var user = await _context.Users.FindAsync(userId);
-                if (user.Username != "admin")
-                {
-                    return Unauthorized(new { success = false, message = "Admin access required." });
-                }
-
-                var books = await _context.Books.ToListAsync();
-                return Ok(new { success = true, data = books });
-            }
-            catch (Exception ex)
-            {
-                return Unauthorized(new { success = false, message = ex.Message });
-            }
+            return View();
         }
 
-        [HttpPost("books")]
-        public async Task<IActionResult> CreateBook([FromBody] Book book)
+        public async Task<IActionResult> ManageUsers()
         {
-            try
+            var users = await _userManager.Users.ToListAsync();
+            return View(users);
+        }
+
+        public async Task<IActionResult> ManageBooks()
+        {
+            var books = await _context.Books.Include(b => b.Category).ToListAsync();
+            return View(books);
+        }
+
+        [HttpGet]
+        public IActionResult CreateBook()
+        {
+            ViewBag.Categories = _context.Categories.ToList();
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> CreateBook(Book book)
+        {
+            if (ModelState.IsValid)
             {
-                var userId = int.Parse(HttpContext.Session.GetString("UserId"));
-                var user = await _context.Users.FindAsync(userId);
-                if (user.Username != "admin")
-                {
-                    return Unauthorized(new { success = false, message = "Admin access required." });
-                }
-
-                if (!ModelState.IsValid)
-                {
-                    return BadRequest(new { success = false, message = "Invalid input.", errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage) });
-                }
-
-                book.CreatedDate = DateTime.UtcNow;
                 _context.Books.Add(book);
                 await _context.SaveChangesAsync();
-                return Ok(new { success = true, bookId = book.BookId });
+                return RedirectToAction("ManageBooks");
             }
-            catch (Exception ex)
-            {
-                return BadRequest(new { success = false, message = ex.Message });
-            }
+            ViewBag.Categories = _context.Categories.ToList();
+            return View(book);
         }
 
-        [HttpPut("books/{id}")]
-        public async Task<IActionResult> UpdateBook(int id, [FromBody] Book book)
+        [HttpGet]
+        public async Task<IActionResult> EditBook(int id)
         {
-            try
-            {
-                var userId = int.Parse(HttpContext.Session.GetString("UserId"));
-                var user = await _context.Users.FindAsync(userId);
-                if (user.Username != "admin")
-                {
-                    return Unauthorized(new { success = false, message = "Admin access required." });
-                }
-
-                if (!ModelState.IsValid)
-                {
-                    return BadRequest(new { success = false, message = "Invalid input.", errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage) });
-                }
-
-                var existingBook = await _context.Books.FindAsync(id);
-                if (existingBook == null)
-                {
-                    return NotFound(new { success = false, message = "Book not found." });
-                }
-
-                existingBook.Title = book.Title;
-                existingBook.Author = book.Author;
-                existingBook.Price = book.Price;
-                existingBook.Stock = book.Stock;
-                existingBook.ImgURL = book.ImgURL;
-                await _context.SaveChangesAsync();
-                return Ok(new { success = true, bookId = id });
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(new { success = false, message = ex.Message });
-            }
+            var book = await _context.Books.FindAsync(id);
+            if (book == null) return NotFound();
+            ViewBag.Categories = _context.Categories.ToList();
+            return View(book);
         }
 
-        [HttpDelete("books/{id}")]
+        [HttpPost]
+        public async Task<IActionResult> EditBook(Book book)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Update(book);
+                await _context.SaveChangesAsync();
+                return RedirectToAction("ManageBooks");
+            }
+            ViewBag.Categories = _context.Categories.ToList();
+            return View(book);
+        }
+
+        [HttpPost]
         public async Task<IActionResult> DeleteBook(int id)
         {
-            try
+            var book = await _context.Books.FindAsync(id);
+            if (book != null)
             {
-                var userId = int.Parse(HttpContext.Session.GetString("UserId"));
-                var user = await _context.Users.FindAsync(userId);
-                if (user.Username != "admin")
-                {
-                    return Unauthorized(new { success = false, message = "Admin access required." });
-                }
-
-                var book = await _context.Books.FindAsync(id);
-                if (book == null)
-                {
-                    return NotFound(new { success = false, message = "Book not found." });
-                }
-
                 _context.Books.Remove(book);
                 await _context.SaveChangesAsync();
-                return Ok(new { success = true, message = "Book deleted." });
             }
-            catch (Exception ex)
-            {
-                return BadRequest(new { success = false, message = ex.Message });
-            }
+            return RedirectToAction("ManageBooks");
         }
     }
 }

@@ -1,0 +1,21 @@
+﻿@model List<BookStore.Models.Book>
+<h2>Books</h2>
+<form method="post" action="@Url.Action("Search")">
+    <input type="text" name="searchTerm" placeholder="Search by title or author" />
+    <input type="submit" value="Search" />
+</form>
+<div>
+    @foreach (var book in Model)
+    {
+        <div>
+            <h3>@book.Title</h3>
+            <p>@book.Author</p>
+            <p>@book.Price</p>
+            <a href="@Url.Action("Details", new { id = book.BookId })">View Details</a>
+            <form method="post" action="@Url.Action("AddToCart", "Cart")">
+                <input type="hidden" name="bookId" value="@book.BookId" />
+                <input type="submit" value="Add to Cart" />
+            </form>
+        </div>
+    }
+</div>

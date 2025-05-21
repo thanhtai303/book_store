@@ -1,4 +1,5 @@
 ﻿<!DOCTYPE html>
+<<<<<<< Updated upstream
 <html lang="zxx">
 
 
@@ -318,5 +319,42 @@
 	<script src="~/js/ajax-mail.js"></script>
 	<script src="~/js/custom.js"></script>
 	@await RenderSectionAsync("Scripts", required: false)
+=======
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BookStore</title>
+</head>
+<body>
+    <header>
+        <nav>
+            @if (User.Identity.IsAuthenticated)
+            {
+                <a href="@Url.Action("Index", "Book")">Home</a>
+ 
+            < a href = "@Url.Action("Browse", "Book")" > Browse </ a > 
+            < a href = "@Url.Action("Index", "Cart")" > Cart </ a > 
+            @if(User.IsInRole("Admin"))
+            {
+                    <a href="@Url.Action("Dashboard", "Admin")">Admin Dashboard</a>
+ 
+            }
+                <form method="post" action="@Url.Action("Logout", "Account")" style="display:inline;">
+                    <input type="submit" value="Logout" />
+                </form>
+            }
+            else
+            {
+                <a href="@Url.Action("Login", "Account")">Login</a>
+ 
+            < a href = "@Url.Action("Register", "Account")" > Register </ a >
+            }
+        </nav>
+    </header>
+    <main>
+        @RenderBody()
+    </main>
+>>>>>>> Stashed changes
 </body>
 </html>

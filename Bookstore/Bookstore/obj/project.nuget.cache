@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "69TWEvtC6Cf9uakU5LnJ1Vm1+rFTxtyewQfTj6O5AMeMq4XrIToqALKx5QQyDASliA+ygpvsz7UtmUPXpKiJSA==",
   "success": true,
   "projectFilePath": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\Bookstore.csproj",
+=======
+  "dgSpecHash": "2prt8id/M4g=",
+  "success": true,
+  "projectFilePath": "E:\\.Net\\book_store\\Bookstore\\Bookstore\\Bookstore.csproj",
+>>>>>>> Stashed changes
   "expectedPackageFiles": [
     "C:\\Users\\acer\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\acer\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

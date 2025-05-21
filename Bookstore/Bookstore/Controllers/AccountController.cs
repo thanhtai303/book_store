@@ -1,101 +1,102 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using BookStore.Data;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using BookStore.Models;
 using System.Threading.Tasks;
-using System.Security.Cryptography;
-using System.Text;
-using Microsoft.EntityFrameworkCore;
 
 namespace BookStore.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class AccountController : ControllerBase
+    [AllowAnonymous] // Allow unauthenticated access to Account actions
+    public class AccountController : Controller
     {
-        private readonly ApplicationDbContext _context;
+        private readonly UserManager<ApplicationUser> _userManager;
+        private readonly SignInManager<ApplicationUser> _signInManager;
 
-        public AccountController(ApplicationDbContext context)
+        public AccountController(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager)
         {
-            _context = context;
+            _userManager = userManager;
+            _signInManager = signInManager;
         }
 
-        [HttpPost("login")]
-        public async Task<IActionResult> Login([FromBody] LoginModel model)
+        [HttpGet]
+        public IActionResult Login()
         {
-            if (!ModelState.IsValid)
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Login(string email, string password, bool rememberMe)
+        {
+            var user = await _userManager.FindByEmailAsync(email);
+            if (user == null)
             {
-                return BadRequest(new { success = false, message = "Invalid input.", errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage) });
+                ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+                return View();
             }
 
-            var user = await _context.Users
-                .FirstOrDefaultAsync(u => u.Username == model.Username);
-            if (user == null || !VerifyPassword(model.Password, user.PasswordHash))
+            var result = await _signInManager.PasswordSignInAsync(user, password, rememberMe, false);
+            if (result.Succeeded)
             {
-                return Unauthorized(new { success = false, message = "Invalid username or password." });
+                return RedirectToAction("Index", "Book");
             }
 
-            HttpContext.Session.SetString("UserId", user.UserId.ToString());
-            HttpContext.Session.SetString("Username", user.Username);
-            return Ok(new { success = true, userId = user.UserId, username = user.Username });
+            ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+            return View();
         }
 
-        [HttpPost("register")]
-        public async Task<IActionResult> Register([FromBody] RegisterModel model)
+        [HttpGet]
+        public IActionResult Register()
         {
-            if (!ModelState.IsValid)
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Register(string email, string password)
+        {
+            var user = new ApplicationUser { UserName = email, Email = email };
+            var result = await _userManager.CreateAsync(user, password);
+
+            if (result.Succeeded)
             {
-                return BadRequest(new { success = false, message = "Invalid input.", errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage) });
+                // Assign User role to new users
+                await _userManager.AddToRoleAsync(user, "User");
+                await _signInManager.SignInAsync(user, isPersistent: false);
+                return RedirectToAction("Index", "Book");
             }
 
-            var existingUser = await _context.Users.AnyAsync(u => u.Username == model.Username || u.Email == model.Email);
-            if (existingUser)
+            foreach (var error in result.Errors)
             {
-                return Conflict(new { success = false, message = "Username or email already exists." });
+                ModelState.AddModelError(string.Empty, error.Description);
+            }
+            return View();
+        }
+
+        [HttpGet]
+        public IActionResult ForgotPassword()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> ForgotPassword(string email)
+        {
+            var user = await _userManager.FindByEmailAsync(email);
+            if (user == null)
+            {
+                return RedirectToAction("Login");
             }
 
-            var user = new User
-            {
-                Username = model.Username,
-                Email = model.Email,
-                PasswordHash = HashPassword(model.Password),
-                CreatedDate = DateTime.UtcNow
-            };
-
-            _context.Users.Add(user);
-            await _context.SaveChangesAsync();
-            return Ok(new { success = true, userId = user.UserId });
+            var token = await _userManager.GeneratePasswordResetTokenAsync(user);
+            // In a real app, send token via email. Here, we'll just redirect to login.
+            return RedirectToAction("Login");
         }
 
-        [HttpPost("logout")]
-        public IActionResult Logout()
+        [Authorize] // Require authentication for logout
+        [HttpPost]
+        public async Task<IActionResult> Logout()
         {
-            HttpContext.Session.Clear();
-            return Ok(new { success = true, message = "Logged out successfully." });
+            await _signInManager.SignOutAsync();
+            return RedirectToAction("Login", "Account");
         }
-
-        private string HashPassword(string password)
-        {
-            using var sha256 = SHA256.Create();
-            var bytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(password));
-            return Convert.ToBase64String(bytes);
-        }
-
-        private bool VerifyPassword(string password, string hash)
-        {
-            return HashPassword(password) == hash;
-        }
-    }
-
-    public class LoginModel
-    {
-        public string Username { get; set; }
-        public string Password { get; set; }
-    }
-
-    public class RegisterModel
-    {
-        public string Username { get; set; }
-        public string Email { get; set; }
-        public string Password { get; set; }
     }
 }
