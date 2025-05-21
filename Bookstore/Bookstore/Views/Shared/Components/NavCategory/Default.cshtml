@@ -9,7 +9,7 @@
 		<ul class="category-menu">
 			@foreach(var category in Model) {
 				<li class="cat-item">
-					<a href="#">@category.CategoryName</a>
+					<a asp-action="Shop" asp-controller="Home" asp-route-categoryId="@category.CategoryId">@category.CategoryName</a>
 					@* <ul class="sub-menu"> *@
 					@* 	<li><a href="#">Bags & Cases</a></li> *@
 					@* 	<li><a href="#">Binoculars & Scopes</a></li> *@

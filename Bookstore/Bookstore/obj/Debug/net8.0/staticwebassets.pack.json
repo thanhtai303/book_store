@@ -1,1044 +1,1468 @@
 {
   "Files": [
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Bookstore.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Bookstore.bundle.scp.css"
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Bookstore.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Bookstore.ge4sihvmw8.bundle.scp.css"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\css\\animate.min.css",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\Book-hub (1).png",
+      "PackagePath": "staticwebassets\\assets\\image\\Book-hub (1).png"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\Book-hub (1).svg",
+      "PackagePath": "staticwebassets\\assets\\image\\Book-hub (1).svg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\bg-images\\best-seller-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\bg-images\\best-seller-bg.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\bg-images\\home-2-slider-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\bg-images\\home-2-slider-1.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\bg-images\\home-2-slider-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\bg-images\\home-2-slider-2.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\bg-images\\home-3-slider-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\bg-images\\home-3-slider-1.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\bg-images\\home-3-slider-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\bg-images\\home-3-slider-2.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\bg-images\\home-4-slider-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\bg-images\\home-4-slider-1.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\bg-images\\home-4-slider-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\bg-images\\home-4-slider-2.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\bg-images\\home-slider-1-ai.png",
+      "PackagePath": "staticwebassets\\assets\\image\\bg-images\\home-slider-1-ai.png"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\bg-images\\home-slider-2-ai.png",
+      "PackagePath": "staticwebassets\\assets\\image\\bg-images\\home-slider-2-ai.png"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\bg-images\\promo-banner-contained.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\bg-images\\promo-banner-contained.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\bg-images\\promo-banner-full.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\bg-images\\promo-banner-full.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\bg-images\\promo-banner-mid.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\bg-images\\promo-banner-mid.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\bg-images\\promo-banner-small-with-text.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\bg-images\\promo-banner-small-with-text.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\bg-images\\promo-banner-small.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\bg-images\\promo-banner-small.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\bg-images\\promo-banner-with-text-2--small.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\bg-images\\promo-banner-with-text-2--small.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\bg-images\\promo-banner-with-text-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\bg-images\\promo-banner-with-text-2.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\bg-images\\promo-banner-with-text-big.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\bg-images\\promo-banner-with-text-big.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\bg-images\\promo-banner-with-text.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\bg-images\\promo-banner-with-text.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\image\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\icon\\author-logo.png",
+      "PackagePath": "staticwebassets\\assets\\image\\icon\\author-logo.png"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\icon\\eng-flag.png",
+      "PackagePath": "staticwebassets\\assets\\image\\icon\\eng-flag.png"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\icon\\germany-flag.png",
+      "PackagePath": "staticwebassets\\assets\\image\\icon\\germany-flag.png"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\icon\\payment.png",
+      "PackagePath": "staticwebassets\\assets\\image\\icon\\payment.png"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\icon\\quotation.png",
+      "PackagePath": "staticwebassets\\assets\\image\\icon\\quotation.png"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\logo--footer.png",
+      "PackagePath": "staticwebassets\\assets\\image\\logo--footer.png"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\image\\logo.png"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\others\\best-seller-author.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\others\\best-seller-author.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\others\\blog-grid-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\others\\blog-grid-1.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\others\\blog-grid-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\others\\blog-grid-2.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\others\\blog-grid-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\others\\blog-grid-3.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\others\\blog-grid-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\others\\blog-grid-4.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\others\\blog-img-big-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\others\\blog-img-big-1.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\others\\blog-img-big-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\others\\blog-img-big-2.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\others\\blog-img-big-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\others\\blog-img-big-3.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\others\\brand-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\others\\brand-1.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\others\\brand-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\others\\brand-2.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\others\\brand-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\others\\brand-3.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\others\\brand-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\others\\brand-4.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\others\\brand-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\others\\brand-5.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\others\\brand-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\others\\brand-6.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\others\\cat-gal-large.png",
+      "PackagePath": "staticwebassets\\assets\\image\\others\\cat-gal-large.png"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\others\\cat-gal-mid-2.png",
+      "PackagePath": "staticwebassets\\assets\\image\\others\\cat-gal-mid-2.png"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\others\\cat-gal-mid.png",
+      "PackagePath": "staticwebassets\\assets\\image\\others\\cat-gal-mid.png"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\others\\cat-gal-small-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\others\\cat-gal-small-2.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\others\\cat-gal-small.png",
+      "PackagePath": "staticwebassets\\assets\\image\\others\\cat-gal-small.png"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\others\\client-1.png",
+      "PackagePath": "staticwebassets\\assets\\image\\others\\client-1.png"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\others\\client-2.png",
+      "PackagePath": "staticwebassets\\assets\\image\\others\\client-2.png"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\others\\client-3.png",
+      "PackagePath": "staticwebassets\\assets\\image\\others\\client-3.png"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\others\\client-4.png",
+      "PackagePath": "staticwebassets\\assets\\image\\others\\client-4.png"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\others\\client-5.png",
+      "PackagePath": "staticwebassets\\assets\\image\\others\\client-5.png"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\others\\home-blog-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\others\\home-blog-1.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\others\\home-blog-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\others\\home-blog-2.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\others\\home-side-promo.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\others\\home-side-promo.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\products\\cart-product-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\products\\cart-product-1.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\products\\product-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\products\\product-1.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\products\\product-10.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\products\\product-10.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\products\\product-11.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\products\\product-11.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\products\\product-12.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\products\\product-12.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\products\\product-13.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\products\\product-13.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\products\\product-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\products\\product-2.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\products\\product-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\products\\product-3.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\products\\product-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\products\\product-4.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\products\\product-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\products\\product-5.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\products\\product-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\products\\product-6.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\products\\product-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\products\\product-7.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\products\\product-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\products\\product-8.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\products\\product-9.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\products\\product-9.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\products\\product-details-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\products\\product-details-1.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\products\\product-details-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\products\\product-details-2.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\products\\product-details-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\products\\product-details-3.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\products\\product-details-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\products\\product-details-4.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\assets\\image\\products\\product-details-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\products\\product-details-5.jpg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\css\\animate.min.css",
       "PackagePath": "staticwebassets\\css\\animate.min.css"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\css\\animation.css",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\css\\animation.css",
       "PackagePath": "staticwebassets\\css\\animation.css"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\css\\bootstrap-select.min.css",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\css\\bootstrap-select.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-select.min.css"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\css\\bootstrap.css",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\css\\site.css",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\css\\plugins.css",
+      "PackagePath": "staticwebassets\\css\\plugins.css"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\css\\style.css",
-      "PackagePath": "staticwebassets\\css\\style.css"
-    },
-    {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\css\\swiper-bundle.min.css",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\css\\swiper-bundle.min.css",
       "PackagePath": "staticwebassets\\css\\swiper-bundle.min.css"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\favicon.ico",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\font\\fonts.css",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\font\\fonts.css",
       "PackagePath": "staticwebassets\\font\\fonts.css"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\icon\\fonts\\icomoon93d9.eot",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\fonts\\Ionicons28b5.eot",
+      "PackagePath": "staticwebassets\\fonts\\Ionicons28b5.eot"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\fonts\\Ionicons28b5.svg",
+      "PackagePath": "staticwebassets\\fonts\\Ionicons28b5.svg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\fonts\\Ionicons28b5.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Ionicons28b5.ttf"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\fonts\\Ionicons28b5.woff",
+      "PackagePath": "staticwebassets\\fonts\\Ionicons28b5.woff"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\fonts\\Material-Design-Iconic-Fontd1f1.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Material-Design-Iconic-Fontd1f1.ttf"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\fonts\\Material-Design-Iconic-Fontd1f1.woff",
+      "PackagePath": "staticwebassets\\fonts\\Material-Design-Iconic-Fontd1f1.woff"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\fonts\\Material-Design-Iconic-Fontd1f1.woff2",
+      "PackagePath": "staticwebassets\\fonts\\Material-Design-Iconic-Fontd1f1.woff2"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\fonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\fonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\fonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\fonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\fonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\fonts\\fa-brands-400d41d.eot",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400d41d.eot"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\fonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\fonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\fonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\fonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\fonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\fonts\\fa-regular-400d41d.eot",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400d41d.eot"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\fonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\fonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\fonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\fonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\fonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\fonts\\fa-solid-900d41d.eot",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900d41d.eot"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\icon\\fonts\\icomoon93d9.eot",
       "PackagePath": "staticwebassets\\icon\\fonts\\icomoon93d9.eot"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\icon\\fonts\\icomoon93d9.svg",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\icon\\fonts\\icomoon93d9.svg",
       "PackagePath": "staticwebassets\\icon\\fonts\\icomoon93d9.svg"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\icon\\fonts\\icomoon93d9.ttf",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\icon\\fonts\\icomoon93d9.ttf",
       "PackagePath": "staticwebassets\\icon\\fonts\\icomoon93d9.ttf"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\icon\\fonts\\icomoon93d9.woff",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\icon\\fonts\\icomoon93d9.woff",
       "PackagePath": "staticwebassets\\icon\\fonts\\icomoon93d9.woff"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\icon\\style.css",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\icon\\style.css",
       "PackagePath": "staticwebassets\\icon\\style.css"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\apps\\item-1.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\apps\\item-1.png",
       "PackagePath": "staticwebassets\\images\\apps\\item-1.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\apps\\item-2.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\apps\\item-2.png",
       "PackagePath": "staticwebassets\\images\\apps\\item-2.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\apps\\item-3.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\apps\\item-3.png",
       "PackagePath": "staticwebassets\\images\\apps\\item-3.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\apps\\item-4.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\apps\\item-4.png",
       "PackagePath": "staticwebassets\\images\\apps\\item-4.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\apps\\item-5.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\apps\\item-5.png",
       "PackagePath": "staticwebassets\\images\\apps\\item-5.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\apps\\item-6.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\apps\\item-6.png",
       "PackagePath": "staticwebassets\\images\\apps\\item-6.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\apps\\item-7.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\apps\\item-7.png",
       "PackagePath": "staticwebassets\\images\\apps\\item-7.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\apps\\item-8.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\apps\\item-8.png",
       "PackagePath": "staticwebassets\\images\\apps\\item-8.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\apps\\item-9.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\apps\\item-9.png",
       "PackagePath": "staticwebassets\\images\\apps\\item-9.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\avatar\\user-1.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\avatar\\user-1.png",
       "PackagePath": "staticwebassets\\images\\avatar\\user-1.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\avatar\\user-10.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\avatar\\user-10.png",
       "PackagePath": "staticwebassets\\images\\avatar\\user-10.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\avatar\\user-11.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\avatar\\user-11.png",
       "PackagePath": "staticwebassets\\images\\avatar\\user-11.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\avatar\\user-12.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\avatar\\user-12.png",
       "PackagePath": "staticwebassets\\images\\avatar\\user-12.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\avatar\\user-13.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\avatar\\user-13.png",
       "PackagePath": "staticwebassets\\images\\avatar\\user-13.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\avatar\\user-14.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\avatar\\user-14.png",
       "PackagePath": "staticwebassets\\images\\avatar\\user-14.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\avatar\\user-15.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\avatar\\user-15.png",
       "PackagePath": "staticwebassets\\images\\avatar\\user-15.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\avatar\\user-2.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\avatar\\user-2.png",
       "PackagePath": "staticwebassets\\images\\avatar\\user-2.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\avatar\\user-3.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\avatar\\user-3.png",
       "PackagePath": "staticwebassets\\images\\avatar\\user-3.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\avatar\\user-4.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\avatar\\user-4.png",
       "PackagePath": "staticwebassets\\images\\avatar\\user-4.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\avatar\\user-5.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\avatar\\user-5.png",
       "PackagePath": "staticwebassets\\images\\avatar\\user-5.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\avatar\\user-6.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\avatar\\user-6.png",
       "PackagePath": "staticwebassets\\images\\avatar\\user-6.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\avatar\\user-7.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\avatar\\user-7.png",
       "PackagePath": "staticwebassets\\images\\avatar\\user-7.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\avatar\\user-8.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\avatar\\user-8.png",
       "PackagePath": "staticwebassets\\images\\avatar\\user-8.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\avatar\\user-9.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\avatar\\user-9.png",
       "PackagePath": "staticwebassets\\images\\avatar\\user-9.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\bg-menu\\img-1.jpg",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\bg-menu\\img-1.jpg",
       "PackagePath": "staticwebassets\\images\\bg-menu\\img-1.jpg"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\bg-menu\\img-2.jpg",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\bg-menu\\img-2.jpg",
       "PackagePath": "staticwebassets\\images\\bg-menu\\img-2.jpg"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\bg-menu\\img-3.jpg",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\bg-menu\\img-3.jpg",
       "PackagePath": "staticwebassets\\images\\bg-menu\\img-3.jpg"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\bg-menu\\img-4.jpg",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\bg-menu\\img-4.jpg",
       "PackagePath": "staticwebassets\\images\\bg-menu\\img-4.jpg"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\bg-menu\\img-5.jpg",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\bg-menu\\img-5.jpg",
       "PackagePath": "staticwebassets\\images\\bg-menu\\img-5.jpg"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\country\\1.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\country\\1.png",
       "PackagePath": "staticwebassets\\images\\country\\1.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\country\\10.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\country\\10.png",
       "PackagePath": "staticwebassets\\images\\country\\10.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\country\\11.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\country\\11.png",
       "PackagePath": "staticwebassets\\images\\country\\11.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\country\\2.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\country\\2.png",
       "PackagePath": "staticwebassets\\images\\country\\2.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\country\\3.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\country\\3.png",
       "PackagePath": "staticwebassets\\images\\country\\3.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\country\\4.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\country\\4.png",
       "PackagePath": "staticwebassets\\images\\country\\4.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\country\\5.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\country\\5.png",
       "PackagePath": "staticwebassets\\images\\country\\5.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\country\\6.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\country\\6.png",
       "PackagePath": "staticwebassets\\images\\country\\6.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\country\\7.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\country\\7.png",
       "PackagePath": "staticwebassets\\images\\country\\7.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\country\\8.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\country\\8.png",
       "PackagePath": "staticwebassets\\images\\country\\8.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\country\\9.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\country\\9.png",
       "PackagePath": "staticwebassets\\images\\country\\9.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\favicon.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\favicon.png",
       "PackagePath": "staticwebassets\\images\\favicon.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\images-section\\all-gallery-1.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\images-section\\all-gallery-1.png",
       "PackagePath": "staticwebassets\\images\\images-section\\all-gallery-1.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\images-section\\all-gallery-10.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\images-section\\all-gallery-10.png",
       "PackagePath": "staticwebassets\\images\\images-section\\all-gallery-10.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\images-section\\all-gallery-11.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\images-section\\all-gallery-11.png",
       "PackagePath": "staticwebassets\\images\\images-section\\all-gallery-11.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\images-section\\all-gallery-12.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\images-section\\all-gallery-12.png",
       "PackagePath": "staticwebassets\\images\\images-section\\all-gallery-12.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\images-section\\all-gallery-2.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\images-section\\all-gallery-2.png",
       "PackagePath": "staticwebassets\\images\\images-section\\all-gallery-2.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\images-section\\all-gallery-3.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\images-section\\all-gallery-3.png",
       "PackagePath": "staticwebassets\\images\\images-section\\all-gallery-3.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\images-section\\all-gallery-4.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\images-section\\all-gallery-4.png",
       "PackagePath": "staticwebassets\\images\\images-section\\all-gallery-4.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\images-section\\all-gallery-5.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\images-section\\all-gallery-5.png",
       "PackagePath": "staticwebassets\\images\\images-section\\all-gallery-5.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\images-section\\all-gallery-6.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\images-section\\all-gallery-6.png",
       "PackagePath": "staticwebassets\\images\\images-section\\all-gallery-6.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\images-section\\all-gallery-7.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\images-section\\all-gallery-7.png",
       "PackagePath": "staticwebassets\\images\\images-section\\all-gallery-7.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\images-section\\all-gallery-8.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\images-section\\all-gallery-8.png",
       "PackagePath": "staticwebassets\\images\\images-section\\all-gallery-8.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\images-section\\all-gallery-9.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\images-section\\all-gallery-9.png",
       "PackagePath": "staticwebassets\\images\\images-section\\all-gallery-9.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\images-section\\all-gallery.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\images-section\\all-gallery.png",
       "PackagePath": "staticwebassets\\images\\images-section\\all-gallery.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\images-section\\gallery-1.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\images-section\\gallery-1.png",
       "PackagePath": "staticwebassets\\images\\images-section\\gallery-1.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\images-section\\gallery-2.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\images-section\\gallery-2.png",
       "PackagePath": "staticwebassets\\images\\images-section\\gallery-2.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\images-section\\gallery-3.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\images-section\\gallery-3.png",
       "PackagePath": "staticwebassets\\images\\images-section\\gallery-3.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\images-section\\gallery-4.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\images-section\\gallery-4.png",
       "PackagePath": "staticwebassets\\images\\images-section\\gallery-4.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\images-section\\goal.jpg",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\images-section\\goal.jpg",
       "PackagePath": "staticwebassets\\images\\images-section\\goal.jpg"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\images-section\\track-oder-1.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\images-section\\track-oder-1.png",
       "PackagePath": "staticwebassets\\images\\images-section\\track-oder-1.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\item-background\\history.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\item-background\\history.png",
       "PackagePath": "staticwebassets\\images\\item-background\\history.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\item-background\\payment-1.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\item-background\\payment-1.png",
       "PackagePath": "staticwebassets\\images\\item-background\\payment-1.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\item-background\\payment-2.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\item-background\\payment-2.png",
       "PackagePath": "staticwebassets\\images\\item-background\\payment-2.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\item-background\\payment-3.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\item-background\\payment-3.png",
       "PackagePath": "staticwebassets\\images\\item-background\\payment-3.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\item-background\\payment-4.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\item-background\\payment-4.png",
       "PackagePath": "staticwebassets\\images\\item-background\\payment-4.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\item-background\\paypal.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\item-background\\paypal.png",
       "PackagePath": "staticwebassets\\images\\item-background\\paypal.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\logo\\logo-dark.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\logo\\logo-dark.png",
       "PackagePath": "staticwebassets\\images\\logo\\logo-dark.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\logo\\logo.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\logo\\logo.png",
       "PackagePath": "staticwebassets\\images\\logo\\logo.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\menu-left\\img-bot.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\menu-left\\img-bot.png",
       "PackagePath": "staticwebassets\\images\\menu-left\\img-bot.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\1.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\1.png",
       "PackagePath": "staticwebassets\\images\\products\\1.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\10.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\10.png",
       "PackagePath": "staticwebassets\\images\\products\\10.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\11.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\11.png",
       "PackagePath": "staticwebassets\\images\\products\\11.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\12.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\12.png",
       "PackagePath": "staticwebassets\\images\\products\\12.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\13.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\13.png",
       "PackagePath": "staticwebassets\\images\\products\\13.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\14.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\14.png",
       "PackagePath": "staticwebassets\\images\\products\\14.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\15.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\15.png",
       "PackagePath": "staticwebassets\\images\\products\\15.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\16.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\16.png",
       "PackagePath": "staticwebassets\\images\\products\\16.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\17.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\17.png",
       "PackagePath": "staticwebassets\\images\\products\\17.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\18.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\18.png",
       "PackagePath": "staticwebassets\\images\\products\\18.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\19.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\19.png",
       "PackagePath": "staticwebassets\\images\\products\\19.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\2.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\2.png",
       "PackagePath": "staticwebassets\\images\\products\\2.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\20.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\20.png",
       "PackagePath": "staticwebassets\\images\\products\\20.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\21.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\21.png",
       "PackagePath": "staticwebassets\\images\\products\\21.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\22.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\22.png",
       "PackagePath": "staticwebassets\\images\\products\\22.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\23.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\23.png",
       "PackagePath": "staticwebassets\\images\\products\\23.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\24.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\24.png",
       "PackagePath": "staticwebassets\\images\\products\\24.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\25.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\25.png",
       "PackagePath": "staticwebassets\\images\\products\\25.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\26.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\26.png",
       "PackagePath": "staticwebassets\\images\\products\\26.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\27.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\27.png",
       "PackagePath": "staticwebassets\\images\\products\\27.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\28.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\28.png",
       "PackagePath": "staticwebassets\\images\\products\\28.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\29.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\29.png",
       "PackagePath": "staticwebassets\\images\\products\\29.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\3.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\3.png",
       "PackagePath": "staticwebassets\\images\\products\\3.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\30.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\30.png",
       "PackagePath": "staticwebassets\\images\\products\\30.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\31.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\31.png",
       "PackagePath": "staticwebassets\\images\\products\\31.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\32.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\32.png",
       "PackagePath": "staticwebassets\\images\\products\\32.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\33.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\33.png",
       "PackagePath": "staticwebassets\\images\\products\\33.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\34.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\34.png",
       "PackagePath": "staticwebassets\\images\\products\\34.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\35.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\35.png",
       "PackagePath": "staticwebassets\\images\\products\\35.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\36.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\36.png",
       "PackagePath": "staticwebassets\\images\\products\\36.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\37.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\37.png",
       "PackagePath": "staticwebassets\\images\\products\\37.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\38.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\38.png",
       "PackagePath": "staticwebassets\\images\\products\\38.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\39.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\39.png",
       "PackagePath": "staticwebassets\\images\\products\\39.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\4.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\4.png",
       "PackagePath": "staticwebassets\\images\\products\\4.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\40.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\40.png",
       "PackagePath": "staticwebassets\\images\\products\\40.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\41.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\41.png",
       "PackagePath": "staticwebassets\\images\\products\\41.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\42.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\42.png",
       "PackagePath": "staticwebassets\\images\\products\\42.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\43.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\43.png",
       "PackagePath": "staticwebassets\\images\\products\\43.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\44.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\44.png",
       "PackagePath": "staticwebassets\\images\\products\\44.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\45.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\45.png",
       "PackagePath": "staticwebassets\\images\\products\\45.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\46.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\46.png",
       "PackagePath": "staticwebassets\\images\\products\\46.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\47.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\47.png",
       "PackagePath": "staticwebassets\\images\\products\\47.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\48.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\48.png",
       "PackagePath": "staticwebassets\\images\\products\\48.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\49.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\49.png",
       "PackagePath": "staticwebassets\\images\\products\\49.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\5.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\5.png",
       "PackagePath": "staticwebassets\\images\\products\\5.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\50.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\50.png",
       "PackagePath": "staticwebassets\\images\\products\\50.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\51.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\51.png",
       "PackagePath": "staticwebassets\\images\\products\\51.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\52.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\52.png",
       "PackagePath": "staticwebassets\\images\\products\\52.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\53.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\53.png",
       "PackagePath": "staticwebassets\\images\\products\\53.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\54.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\54.png",
       "PackagePath": "staticwebassets\\images\\products\\54.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\55.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\55.png",
       "PackagePath": "staticwebassets\\images\\products\\55.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\56.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\56.png",
       "PackagePath": "staticwebassets\\images\\products\\56.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\57.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\57.png",
       "PackagePath": "staticwebassets\\images\\products\\57.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\58.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\58.png",
       "PackagePath": "staticwebassets\\images\\products\\58.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\59.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\59.png",
       "PackagePath": "staticwebassets\\images\\products\\59.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\6.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\6.png",
       "PackagePath": "staticwebassets\\images\\products\\6.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\60.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\60.png",
       "PackagePath": "staticwebassets\\images\\products\\60.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\7.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\7.png",
       "PackagePath": "staticwebassets\\images\\products\\7.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\8.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\8.png",
       "PackagePath": "staticwebassets\\images\\products\\8.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\9.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\9.png",
       "PackagePath": "staticwebassets\\images\\products\\9.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\product-detail-1.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\product-detail-1.png",
       "PackagePath": "staticwebassets\\images\\products\\product-detail-1.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\product-detail-2.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\product-detail-2.png",
       "PackagePath": "staticwebassets\\images\\products\\product-detail-2.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\product-detail-3.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\product-detail-3.png",
       "PackagePath": "staticwebassets\\images\\products\\product-detail-3.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\product-detail-4.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\product-detail-4.png",
       "PackagePath": "staticwebassets\\images\\products\\product-detail-4.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\product-detail-5.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\product-detail-5.png",
       "PackagePath": "staticwebassets\\images\\products\\product-detail-5.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\product-detail-thumbs-1.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\product-detail-thumbs-1.png",
       "PackagePath": "staticwebassets\\images\\products\\product-detail-thumbs-1.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\product-detail-thumbs-2.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\product-detail-thumbs-2.png",
       "PackagePath": "staticwebassets\\images\\products\\product-detail-thumbs-2.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\product-detail-thumbs-3.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\product-detail-thumbs-3.png",
       "PackagePath": "staticwebassets\\images\\products\\product-detail-thumbs-3.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\product-detail-thumbs-4.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\product-detail-thumbs-4.png",
       "PackagePath": "staticwebassets\\images\\products\\product-detail-thumbs-4.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\product-detail-thumbs-5.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\products\\product-detail-thumbs-5.png",
       "PackagePath": "staticwebassets\\images\\products\\product-detail-thumbs-5.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\shop\\1.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\shop\\1.png",
       "PackagePath": "staticwebassets\\images\\shop\\1.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\shop\\2.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\shop\\2.png",
       "PackagePath": "staticwebassets\\images\\shop\\2.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\shop\\3.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\shop\\3.png",
       "PackagePath": "staticwebassets\\images\\shop\\3.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\shop\\4.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\shop\\4.png",
       "PackagePath": "staticwebassets\\images\\shop\\4.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\shop\\5.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\shop\\5.png",
       "PackagePath": "staticwebassets\\images\\shop\\5.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\shop\\6.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\shop\\6.png",
       "PackagePath": "staticwebassets\\images\\shop\\6.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\shop\\7.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\shop\\7.png",
       "PackagePath": "staticwebassets\\images\\shop\\7.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\upload\\upload-1.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\upload\\upload-1.png",
       "PackagePath": "staticwebassets\\images\\upload\\upload-1.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\upload\\upload-2.png",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\images\\upload\\upload-2.png",
       "PackagePath": "staticwebassets\\images\\upload\\upload-2.png"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\apexcharts\\apexcharts.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\ajax-mail.js",
+      "PackagePath": "staticwebassets\\js\\ajax-mail.js"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\apexcharts\\apexcharts.js",
       "PackagePath": "staticwebassets\\js\\apexcharts\\apexcharts.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\apexcharts\\line-chart-1.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\apexcharts\\line-chart-1.js",
       "PackagePath": "staticwebassets\\js\\apexcharts\\line-chart-1.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\apexcharts\\line-chart-10.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\apexcharts\\line-chart-10.js",
       "PackagePath": "staticwebassets\\js\\apexcharts\\line-chart-10.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\apexcharts\\line-chart-11.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\apexcharts\\line-chart-11.js",
       "PackagePath": "staticwebassets\\js\\apexcharts\\line-chart-11.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\apexcharts\\line-chart-12.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\apexcharts\\line-chart-12.js",
       "PackagePath": "staticwebassets\\js\\apexcharts\\line-chart-12.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\apexcharts\\line-chart-13.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\apexcharts\\line-chart-13.js",
       "PackagePath": "staticwebassets\\js\\apexcharts\\line-chart-13.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\apexcharts\\line-chart-14.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\apexcharts\\line-chart-14.js",
       "PackagePath": "staticwebassets\\js\\apexcharts\\line-chart-14.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\apexcharts\\line-chart-15.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\apexcharts\\line-chart-15.js",
       "PackagePath": "staticwebassets\\js\\apexcharts\\line-chart-15.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\apexcharts\\line-chart-16.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\apexcharts\\line-chart-16.js",
       "PackagePath": "staticwebassets\\js\\apexcharts\\line-chart-16.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\apexcharts\\line-chart-17.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\apexcharts\\line-chart-17.js",
       "PackagePath": "staticwebassets\\js\\apexcharts\\line-chart-17.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\apexcharts\\line-chart-18.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\apexcharts\\line-chart-18.js",
       "PackagePath": "staticwebassets\\js\\apexcharts\\line-chart-18.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\apexcharts\\line-chart-19.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\apexcharts\\line-chart-19.js",
       "PackagePath": "staticwebassets\\js\\apexcharts\\line-chart-19.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\apexcharts\\line-chart-2.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\apexcharts\\line-chart-2.js",
       "PackagePath": "staticwebassets\\js\\apexcharts\\line-chart-2.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\apexcharts\\line-chart-20.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\apexcharts\\line-chart-20.js",
       "PackagePath": "staticwebassets\\js\\apexcharts\\line-chart-20.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\apexcharts\\line-chart-21.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\apexcharts\\line-chart-21.js",
       "PackagePath": "staticwebassets\\js\\apexcharts\\line-chart-21.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\apexcharts\\line-chart-22.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\apexcharts\\line-chart-22.js",
       "PackagePath": "staticwebassets\\js\\apexcharts\\line-chart-22.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\apexcharts\\line-chart-3.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\apexcharts\\line-chart-3.js",
       "PackagePath": "staticwebassets\\js\\apexcharts\\line-chart-3.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\apexcharts\\line-chart-4.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\apexcharts\\line-chart-4.js",
       "PackagePath": "staticwebassets\\js\\apexcharts\\line-chart-4.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\apexcharts\\line-chart-5.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\apexcharts\\line-chart-5.js",
       "PackagePath": "staticwebassets\\js\\apexcharts\\line-chart-5.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\apexcharts\\line-chart-6.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\apexcharts\\line-chart-6.js",
       "PackagePath": "staticwebassets\\js\\apexcharts\\line-chart-6.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\apexcharts\\line-chart-7.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\apexcharts\\line-chart-7.js",
       "PackagePath": "staticwebassets\\js\\apexcharts\\line-chart-7.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\apexcharts\\line-chart-8.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\apexcharts\\line-chart-8.js",
       "PackagePath": "staticwebassets\\js\\apexcharts\\line-chart-8.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\apexcharts\\line-chart-9.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\apexcharts\\line-chart-9.js",
       "PackagePath": "staticwebassets\\js\\apexcharts\\line-chart-9.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\bootstrap-select.min.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\bootstrap-select.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap-select.min.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\bootstrap.min.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\carousel.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\carousel.js",
       "PackagePath": "staticwebassets\\js\\carousel.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\jquery.min.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\jquery.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.min.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\jvectormap-1.2.2.min.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\jvectormap-1.2.2.min.js",
       "PackagePath": "staticwebassets\\js\\jvectormap-1.2.2.min.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\jvectormap-us-lcc.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\jvectormap-us-lcc.js",
       "PackagePath": "staticwebassets\\js\\jvectormap-us-lcc.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\jvectormap.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\jvectormap.js",
       "PackagePath": "staticwebassets\\js\\jvectormap.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\main.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\morris.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\morris.js",
       "PackagePath": "staticwebassets\\js\\morris.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\morris.min.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\morris.min.js",
       "PackagePath": "staticwebassets\\js\\morris.min.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\raphael.min.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\plugins.js",
+      "PackagePath": "staticwebassets\\js\\plugins.js"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\raphael.min.js",
       "PackagePath": "staticwebassets\\js\\raphael.min.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\site.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\signalr-loader.js",
+      "PackagePath": "staticwebassets\\js\\signalr-loader.js"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\swiper-bundle.min.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\swiper-bundle.min.js",
       "PackagePath": "staticwebassets\\js\\swiper-bundle.min.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\switcher.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\switcher.js",
       "PackagePath": "staticwebassets\\js\\switcher.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\tinymce\\tinymce-custom.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\tinymce\\tinymce-custom.js",
       "PackagePath": "staticwebassets\\js\\tinymce\\tinymce-custom.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\tinymce\\tinymce.min.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\tinymce\\tinymce.min.js",
       "PackagePath": "staticwebassets\\js\\tinymce\\tinymce.min.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\zoom.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\js\\zoom.js",
       "PackagePath": "staticwebassets\\js\\zoom.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Bookstore.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Bookstore.Microsoft.AspNetCore.StaticWebAssets.props",

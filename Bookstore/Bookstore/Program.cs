@@ -1,8 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using BookStore.Data;
 using BookStore.Hubs;
-using Microsoft.AspNetCore.Cors.Infrastructure;
-using BookStore.Services;
 using BookStore.Services;
 
 var builder = WebApplication.CreateBuilder(args);

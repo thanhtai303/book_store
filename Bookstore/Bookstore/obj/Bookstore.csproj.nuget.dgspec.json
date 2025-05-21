@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\Bookstore.csproj": {}
+    "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\Bookstore.csproj": {}
   },
   "projects": {
-    "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\Bookstore.csproj": {
+    "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\Bookstore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\Bookstore.csproj",
+        "projectUniqueName": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\Bookstore.csproj",
         "projectName": "Bookstore",
-        "projectPath": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\Bookstore.csproj",
-        "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
-        "outputPath": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\obj\\",
+        "projectPath": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\Bookstore.csproj",
+        "packagesPath": "C:\\Users\\buitu\\.nuget\\packages\\",
+        "outputPath": "E:\\Tuan For Study Data\\Web Project\\Book DotNET project\\book_store\\Bookstore\\Bookstore\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Windows Programs\\C\\Program\\VS Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\buitu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,13 +43,22 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Bogus": {
+              "target": "Package",
+              "version": "[35.6.3, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Common": {
               "target": "Package",
               "version": "[8.0.8, )"
             },
@@ -79,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
