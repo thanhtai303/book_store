@@ -1,71 +1,68 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using BookStore.Services;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using BookStore.Data;
+using BookStore.Models;
+using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
+using System.Security.Claims;
 
 namespace BookStore.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class CartController : ControllerBase
+    [Authorize]
+    public class CartController : Controller
     {
-        private readonly ICartService _cartService;
+        private readonly ApplicationDbContext _context;
 
-        public CartController(ICartService cartService)
+        public CartController(ApplicationDbContext context)
         {
-            _cartService = cartService;
+            _context = context;
         }
 
-        [HttpGet]
-        public async Task<IActionResult> GetCart()
+        public async Task<IActionResult> Index()
         {
-            try
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var cart = await _context.Carts
+                .Include(c => c.CartItems)
+                .ThenInclude(ci => ci.Book)
+                .FirstOrDefaultAsync(c => c.UserId == userId);
+
+            if (cart == null)
             {
-                var cartItems = await _cartService.GetCartItemsAsync();
-                return Ok(new { success = true, data = cartItems });
+                cart = new Cart { UserId = userId, CartItems = new List<CartItem>() };
+                _context.Carts.Add(cart);
+                await _context.SaveChangesAsync();
             }
-            catch (Exception ex)
-            {
-                return Unauthorized(new { success = false, message = ex.Message });
-            }
+
+            return View(cart);
         }
 
-        [HttpPost("add")]
-        public async Task<IActionResult> AddToCart([FromBody] CartRequest model)
+        [HttpPost]
+        public async Task<IActionResult> AddToCart(int bookId, int quantity = 1)
         {
-            try
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var cart = await _context.Carts
+                .Include(c => c.CartItems)
+                .FirstOrDefaultAsync(c => c.UserId == userId);
+
+            if (cart == null)
             {
-                await _cartService.AddToCartAsync(model.BookId, model.Quantity);
-                return Ok(new { success = true, message = "Added to cart." });
+                cart = new Cart { UserId = userId, CartItems = new List<CartItem>() };
+                _context.Carts.Add(cart);
             }
-            catch (Exception ex)
+
+            var cartItem = cart.CartItems.FirstOrDefault(ci => ci.BookId == bookId);
+            if (cartItem == null)
             {
-                return BadRequest(new { success = false, message = ex.Message });
+                cartItem = new CartItem { BookId = bookId, Quantity = quantity };
+                cart.CartItems.Add(cartItem);
             }
+            else
+            {
+                cartItem.Quantity += quantity;
+            }
+
+            await _context.SaveChangesAsync();
+            return RedirectToAction("Index");
         }
-
-        [HttpPost("remove")]
-        public async Task<IActionResult> RemoveFromCart([FromBody] RemoveCartRequest model)
-        {
-            try
-            {
-                await _cartService.RemoveFromCartAsync(model.CartId);
-                return Ok(new { success = true, message = "Removed from cart." });
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(new { success = false, message = ex.Message });
-            }
-        }
-    }
-
-    public class CartRequest
-    {
-        public int BookId { get; set; }
-        public int Quantity { get; set; }
-    }
-
-    public class RemoveCartRequest
-    {
-        public int CartId { get; set; }
     }
 }

@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< Updated upstream
     "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\Bookstore.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\Bookstore.csproj",
         "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
         "outputPath": "D:\\CSE443Dotnet\\Project\\book_store\\Bookstore\\Bookstore\\obj\\",
+=======
+    "E:\\.Net\\book_store\\Bookstore\\Bookstore\\Bookstore.csproj": {}
+  },
+  "projects": {
+    "E:\\.Net\\book_store\\Bookstore\\Bookstore\\Bookstore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\.Net\\book_store\\Bookstore\\Bookstore\\Bookstore.csproj",
+        "projectName": "Bookstore",
+        "projectPath": "E:\\.Net\\book_store\\Bookstore\\Bookstore\\Bookstore.csproj",
+        "packagesPath": "C:\\Users\\zinzi\\.nuget\\packages\\",
+        "outputPath": "E:\\.Net\\book_store\\Bookstore\\Bookstore\\obj\\",
+>>>>>>> Stashed changes
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",

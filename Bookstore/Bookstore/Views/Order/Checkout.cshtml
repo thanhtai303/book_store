@@ -1,0 +1,30 @@
+﻿@model BookStore.Models.Cart
+<h2>Checkout</h2>
+@if (Model.CartItems.Any())
+{
+    <table>
+        <tr>
+            <th>Title</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+        </tr>
+        @foreach (var item in Model.CartItems)
+        {
+            <tr>
+                <td>@item.Book.Title</td>
+                <td>@item.Book.Price</td>
+                <td>@item.Quantity</td>
+                <td>@(item.Quantity * item.Book.Price)</td>
+            </tr>
+        }
+    </table>
+    <p>Total: @Model.CartItems.Sum(i => i.Quantity * i.Book.Price)</p>
+    <form method="post" action="@Url.Action("CheckoutConfirmed")">
+        <input type="submit" value="Confirm Order" />
+    </form>
+}
+else
+{
+    <p>Your cart is empty.</p>
+}

@@ -1,13 +1,9 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.Collections.Generic;
-using System;
-
-namespace BookStore.Models
+﻿namespace BookStore.Models
 {
     public class Category
     {
-        [Key]
         public int CategoryId { get; set; }
+<<<<<<< Updated upstream
 
         [Required]
         [StringLength(50)]
@@ -19,5 +15,9 @@ namespace BookStore.Models
         public DateTime CreatedDate { get; set; }
 
         public virtual ICollection<Book> Books { get; set; }
+=======
+        public string Name { get; set; }
+        public List<Book> Books { get; set; }
+>>>>>>> Stashed changes
     }
 }

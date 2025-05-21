@@ -1,0 +1,30 @@
+﻿@model List<BookStore.Models.Book>
+<h2>Manage Books</h2>
+<a href="@Url.Action("CreateBook")">Add New Book</a>
+<table>
+    <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Category</th>
+        <th>Price</th>
+        <th>Stock</th>
+        <th>Actions</th>
+    </tr>
+    @foreach (var book in Model)
+    {
+        <tr>
+            <td>@book.Title</td>
+            <td>@book.Author</td>
+            <td>@book.Category.Name</td>
+            <td>@book.Price</td>
+            <td>@book.Stock</td>
+            <td>
+                <a href="@Url.Action("EditBook", new { id = book.BookId })">Edit</a>
+                <form method="post" action="@Url.Action("DeleteBook")" style="display:inline;">
+                    <input type="hidden" name="id" value="@book.BookId" />
+                    <input type="submit" value="Delete" onclick="return confirm('Are you sure?');" />
+                </form>
+            </td>
+        </tr>
+    }
+</table>

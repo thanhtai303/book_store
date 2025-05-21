@@ -1,0 +1,33 @@
+﻿@model dynamic
+<h2>Login</h2>
+<form method="post" action="@Url.Action("Login")">
+    <div>
+        <label>Email</label>
+        <input type="email" name="email" required />
+    </div>
+    <div>
+        <label>Password</label>
+        <input type="password" name="password" required />
+    </div>
+    <div>
+        <label><input type="checkbox" name="rememberMe" /> Remember Me</label>
+    </div>
+    <div>
+        <input type="submit" value="Login" />
+    </div>
+    <div>
+        <a href="@Url.Action("ForgotPassword")">Forgot Password?</a>
+    </div>
+    <div>
+        <p>Don't have an account? <a href="@Url.Action("Register")">Create a new account</a></p>
+    </div>
+    @if (ViewData.ModelState.Any(x => x.Value.Errors.Any()))
+    {
+        <div>
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <p>@error.ErrorMessage</p>
+            }
+        </div>
+    }
+</form>

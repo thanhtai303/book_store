@@ -1,0 +1,17 @@
+﻿@model List<BookStore.Models.ApplicationUser>
+<h2>Manage Users</h2>
+<table>
+    <tr>
+        <th>Email</th>
+        <th>Actions</th>
+    </tr>
+    @foreach (var user in Model)
+    {
+        <tr>
+            <td>@user.Email</td>
+            <td>
+                <!-- Add edit/delete actions as needed -->
+            </td>
+        </tr>
+    }
+</table>
