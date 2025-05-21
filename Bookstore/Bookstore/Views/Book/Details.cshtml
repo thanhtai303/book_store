@@ -1,0 +1,14 @@
+﻿@model BookStore.Models.Book
+<h2>@Model.Title</h2>
+<p>Author: @Model.Author</p>
+<p>Category: @Model.Category.Name</p>
+<p>Price: @Model.Price</p>
+<p>@Model.ShortDescription</p>
+<p>@Model.LongDescription</p>
+<p>Publisher: @Model.Publisher</p>
+<p>Year: @Model.YearOfPublication</p>
+<img src="@Model.ImageL" alt="@Model.Title" />
+<form method="post" action="@Url.Action("AddToCart", "Cart")">
+    <input type="hidden" name="bookId" value="@Model.BookId" />
+    <input type="submit" value="Add to Cart" />
+</form>
